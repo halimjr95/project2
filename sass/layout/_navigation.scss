@@ -138,7 +138,7 @@
     transform: rotate(135deg);
   }
 
-  &__input :checked + &__button &__icon::after {
+  &__input:checked + &__button &__icon::after {
     top: 0;
     transform: rotate(-135deg);
   }
